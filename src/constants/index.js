@@ -11,7 +11,7 @@ journey in programming began during high school, and since then,
 I've been exploring various programming languages and
 frameworks.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including HTML, CSS, PHP, MySQL, Javascript, and more frame work. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. `;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With over 5 project experience, I have worked with a variety of technologies, including HTML, CSS, PHP, MySQL, Javascript, and more frame work. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. `;
 
 
 
