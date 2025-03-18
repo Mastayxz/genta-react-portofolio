@@ -99,6 +99,22 @@ const Technologies = () => {
           >
             <BsBootstrap className="text-5xl text-purple-600" />
           </motion.div>
+          <motion.div
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <FaLaravel className="text-5xl text-red-500 " />
+          </motion.div>
+          <motion.div
+            variants={iconVariants(5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <RiTailwindCssLine className="text-5xl text-blue-400" />
+          </motion.div>
         </motion.div>
       </div>
 
@@ -125,22 +141,8 @@ const Technologies = () => {
           >
             <RiReactjsLine className="text-5xl text-cyan-400" />
           </motion.div>
-          <motion.div
-            variants={iconVariants(5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <RiTailwindCssLine className="text-5xl text-blue-400" />
-          </motion.div>
-          <motion.div
-            variants={iconVariants(2)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <FaLaravel className="text-5xl text-red-500 " />
-          </motion.div>
+          
+          
         </motion.div>
       </div>
     </div>
