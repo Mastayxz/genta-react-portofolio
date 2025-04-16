@@ -21,6 +21,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     link: "https://kelas2a04.lab-trpl.id/",
+    github: "https://github.com/Mastayxz/project-uas-web",
     technologies: ["HTML", "CSS", "PHP", "MySQL", "Bootstrap", "Javascript"],
   },
   {
@@ -29,6 +30,7 @@ export const PROJECTS = [
     description:
       "The Jendela Wisata Tourism Information Website is a system that provides information related to tourism components in Bali. This is an implementation of project-based learning activities",
     link: "https://pariwisata.lab-trpl.id",
+    github: "https://github.com/Mastayxz/jendela_wisata_v2",
     technologies: [
       "HTML",
       "CSS",
@@ -38,12 +40,13 @@ export const PROJECTS = [
       "Javascript",
       "MySQL",
     ],
-  }, 
+  },
   {
     title: "QR Generator",
     image: project6,
     description: "A Website QR Code Builder",
     link: "https://qr-generator-orpin-two.vercel.app/",
+    github: "https://github.com/Mastayxz/qr-frontend",
     technologies: [
       "React.js",
       "tailwind css",
@@ -56,10 +59,11 @@ export const PROJECTS = [
 
   {
     title: "Bimbingan Skripsi",
-    image: project3 ,
+    image: project3,
     description:
       "A website for sistem bimbingan skripsi for stundent in software Engineering, Politeknik Negeri Bali",
     link: "https://mastayxz.github.io/dog_house/",
+    github: "https://github.com/Mastayxz/bimbingan-skripsi-trpl",
     technologies: [
       "HTML",
       "Tailwind CSS",
@@ -76,6 +80,7 @@ export const PROJECTS = [
     description:
       "A Landing Page Website for Dog House, this is implementation Basic Code Front End",
     link: "https://mastayxz.github.io/dog_house/",
+    github: "https://github.com/Mastayxz/dog_house",
     technologies: ["HTML", "CSS", "Bootstrap"],
   },
   {
@@ -84,6 +89,7 @@ export const PROJECTS = [
     description:
       "Helpful is a dedicated donation platform designed to provide immediate and impactful relief to communities affected by natural disasters. Our mission is to connect compassionate individuals with trusted organizations to deliver essential aid swiftly and efficiently.",
     link: "https://mastayxz.github.io/helpful-donation-website/",
+    github: "https://github.com/Mastayxz/helpful-donation-website",
     technologies: ["HTML", "CSS", "Bootstrap"],
   },
 ];

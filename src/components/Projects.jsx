@@ -40,11 +40,18 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              <div className='flex flex-row gap-2'>
               <p className="mb-4 text-neutral-400 rounded bg-neutral-900 px-1 py-1 text-sm w-20 text-center ">
                 <a href={project.link} className="text-cyan-400">
                   Live demo
                 </a>
               </p>
+              <p className="mb-4 text-neutral-400 rounded bg-neutral-900 px-1 py-1 text-sm w-40 text-center ">
+                <a href={project.github} className="text-yellow-400">
+                  See On github
+                </a>
+              </p>
+              </div>
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
                   <span
