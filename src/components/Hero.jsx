@@ -36,7 +36,7 @@ const Hero = () => {
                 sequence={[
                   "Full Stack Developer",
                   1000,
-                  "Front End Developer",
+                  "Backend Developer",
                   1000,
                   // wait 1s before replacing "Mice" with "Hamsters"
                 ]}

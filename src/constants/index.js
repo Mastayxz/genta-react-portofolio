@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
+import project3 from "../assets/projects/new.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/qr-generator.png";
@@ -38,7 +38,7 @@ export const PROJECTS = [
       "Javascript",
       "MySQL",
     ],
-  },
+  }, 
   {
     title: "QR Generator",
     image: project6,
@@ -51,6 +51,23 @@ export const PROJECTS = [
       "typescript",
       "node.js",
       "express.js",
+    ],
+  },
+
+  {
+    title: "Bimbingan Skripsi",
+    image: project3 ,
+    description:
+      "A website for sistem bimbingan skripsi for stundent in software Engineering, Politeknik Negeri Bali",
+    link: "https://mastayxz.github.io/dog_house/",
+    technologies: [
+      "HTML",
+      "Tailwind CSS",
+      "PHP",
+      "Laravel",
+      "Javascript",
+      "MySQL",
+      "Blade",
     ],
   },
   {

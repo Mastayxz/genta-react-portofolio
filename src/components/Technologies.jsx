@@ -119,14 +119,6 @@ const Technologies = () => {
       </div>
 
       <div className="my-12">
-        <motion.h2
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: -100 }}
-          transition={{ duration: 0.5 }}
-          className="mb-6 text-center text-3xl font-semibold"
-        >
-          Still Learnig
-        </motion.h2>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
