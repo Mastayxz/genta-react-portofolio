@@ -4,6 +4,10 @@ import project3 from "../assets/projects/new.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/qr-generator.png";
+import project7 from "../assets/projects/postman1.png";
+import project8 from "../assets/projects/api-book.png";
+import project9 from "../assets/projects/devlog.png";
+import project10 from "../assets/projects/EXPENSE.png";
 
 export const HERO_CONTENT = `Hi, I'm Genta Arimbawa, a passionate full-stack developer based
 in Bali, Indonesia. Currently, I'm a student at Politeknik
@@ -12,10 +16,15 @@ journey in programming began during high school, and since then,
 I've been exploring various programming languages and
 frameworks.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With over 5 project experience, I have worked with a variety of technologies, including HTML, CSS, PHP, MySQL, Javascript, and more frame work. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. `;
+export const ABOUT_TEXT = `I'm a full stack developer who enjoys building simple, efficient, and user-friendly web applications. I've worked on more than 5 projects using technologies like HTML, CSS, JavaScript, PHP, and MySQL, as well as frameworks like Laravel and Node.js.
+
+I got into web development out of curiosity about how things work behind the scenes. Since then, I've been learning and growing through hands-on projects. I work on both the front-end and back-end, and I'm also able to create REST APIs for web and mobile app needs.
+
+I like to write clean, readable code that makes future development easier and more maintainable. `;
 
 export const PROJECTS = [
   {
+    type: "web",
     title: "E-Commerce Website Suka Suka Furniture (Final Semester Project)",
     image: project1,
     description:
@@ -25,6 +34,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "PHP", "MySQL", "Bootstrap", "Javascript"],
   },
   {
+    type: "web",
     title: "Jendela Wisata Tourism Information Website (Project Base Learning)",
     image: project2,
     description:
@@ -42,6 +52,7 @@ export const PROJECTS = [
     ],
   },
   {
+    type: "web",
     title: "QR Generator",
     image: project6,
     description: "A Website QR Code Builder",
@@ -58,11 +69,12 @@ export const PROJECTS = [
   },
 
   {
-    title: "Bimbingan Skripsi",
+    type: "web",
+    title: "SIBIMOLI TRPL",
     image: project3,
     description:
       "A website for sistem bimbingan skripsi for stundent in software Engineering, Politeknik Negeri Bali",
-    link: "https://mastayxz.github.io/dog_house/",
+    link: "#",
     github: "https://github.com/Mastayxz/bimbingan-skripsi-trpl",
     technologies: [
       "HTML",
@@ -75,6 +87,25 @@ export const PROJECTS = [
     ],
   },
   {
+    type: "web",
+    title: "Masta Verse Blog - On Progress",
+    image: project9,
+    description:
+      "A Blog Website for Masta Verse Dev Blog, this website is for note taking about my journey in software engineering",
+    link: "#",
+    github: "https://github.com/Mastayxz/Masta-Blog",
+    technologies: [
+      "HTML",
+      "Tailwind CSS",
+      "PHP",
+      "Laravel",
+      "Javascript",
+      "MySQL",
+      "Blade",
+    ],
+  },
+  {
+    type: "web",
     title: "Dog House",
     image: project4,
     description:
@@ -84,6 +115,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Bootstrap"],
   },
   {
+    type: "web",
     title: "HelpFull Donation",
     image: project5,
     description:
@@ -91,6 +123,34 @@ export const PROJECTS = [
     link: "https://mastayxz.github.io/helpful-donation-website/",
     github: "https://github.com/Mastayxz/helpful-donation-website",
     technologies: ["HTML", "CSS", "Bootstrap"],
+  },
+  {
+    type: "web",
+    title: "Expense Tracker - On Progress",
+    description:
+      "Expense Tracker is a web application that allows users to track their expenses. User can add, edit, and delete expenses. The application also provides a feature to view all expenses in a table format.",
+    image: project10,
+    link: "#", // bisa link postman atau swagger
+    github: "#",
+    technologies: ["express.js", "MongoDB", "node.js", "React.js"],
+  },
+  {
+    type: "api",
+    title: "API Expense Tracker",
+    description: "Documentation API for managing data Expense Tracker",
+    image: project7,
+    link: "https://documenter.getpostman.com/view/43575693/2sB2cbaJwp", // bisa link postman atau swagger
+    github: "https://github.com/Mastayxz/expense-tracker-backend",
+    technologies: ["express.js", "MongoDB", "node.js"],
+  },
+  {
+    type: "api",
+    title: "API Bookshelf",
+    description: "Documentation API for managing data Bookshelf",
+    image: project8,
+    link: "https://documenter.getpostman.com/view/12345678/abcde", // bisa link postman atau swagger
+    github: "https://github.com/Mastayxz/api-bookself",
+    technologies: ["Laravel", "MySQL"],
   },
 ];
 
