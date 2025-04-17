@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilepic from "../assets/genta.jpg";
+import profilepic from "../assets/bruh.jpeg";
 import { TypeAnimation } from "react-type-animation";
 import { delay, motion } from "framer-motion";
 const container = (delay) => ({
