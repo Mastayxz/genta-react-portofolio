@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilepic from "../assets/genta.jpg";
+import profilepic from "../assets/bruh.jpeg";
 import { TypeAnimation } from "react-type-animation";
 import { delay, motion } from "framer-motion";
 const container = (delay) => ({
@@ -36,7 +36,9 @@ const Hero = () => {
                 sequence={[
                   "Full Stack Developer",
                   1000,
-                  "Front End Developer",
+                  "BackEnd Developer",
+                  1000,
+                  "FrontEnd Developer",
                   1000,
                   // wait 1s before replacing "Mice" with "Hamsters"
                 ]}
